@@ -1,0 +1,58 @@
+body {
+  background-color: lightblue;
+}
+
+#card {
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: white;
+  border-radius: 10%;
+  text-align: center;
+}
+
+#content {
+  position: absolute;
+  bottom: 20px;
+  width: inherit;
+  margin: auto;
+}
+
+.img-circle {
+ width: 125px;
+ height: 125px;
+ border-radius: 150px;
+ -webkit-border-radius: 150px;
+ -moz-border-radius: 150px;
+ position: absolute;
+ top: -40px;
+ right: 0;
+ bottom:0;
+ left: 0;
+ margin:0 auto;
+}
+
+.logo-circle {
+ width: 50px;
+ height: 50px;
+ border-radius: 150px;
+ -webkit-border-radius: 150px;
+ -moz-border-radius: 150px;
+ position: relative;
+ top: 10px;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 2px;
+ margin: auto;
+}
+
+.footer {
+  position: relative;
+  font-size: xx-small;
+  padding-top: 10px;
+}
